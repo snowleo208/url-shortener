@@ -1,0 +1,43 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to URL Shortener!</title>
+    <meta name="description" content="A cool thing made with Glitch, which can shorten any url!">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        URL Shortener
+      </h1>
+    </header>
+
+    <main>
+    <p>This URL Shortener is made by Express.js and MongoDB. For freeCodeCamp backend project.</p>
+    <p>You can use this URL shortener to shorten any url!</p>
+    <h2>Usage</h2>
+      <p>Input any url after https://plum-bush.glitch.me/new/.</p>
+      <p>You can view json output for your shortened id.</p>
+
+  <h3>Example</h3>
+    <p>For example: <b>https://plum-bush.glitch.me/new/https://www.google.com</b></p>
+    <p>Then you will see a json output in your browser: </p>
+    <p class="desc">{"original_url":"http://www.github.com","shorten_url":"https://plum-bush.glitch.me/11417"}</p>
+    <p>Then access your shortened url using <a href="https://plum-bush.glitch.me/11417" target="_blank">https://plum-bush.glitch.me/11417</a></p>
+    </main>
+
+  </body>
+</html>
